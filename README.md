@@ -22,7 +22,7 @@ Estructura del repositorio
 Código
 ├── dataset/              # FER2013 (train/test)
 ├── notebook_entrenamiento.ipynb  # Notebook de entrenamiento
-├── modelo_final.h5       # Modelo entrenado
+├── modelo_final.keras       # Modelo entrenado
 ├── prediccion_realtime.py # Código para predicciones en tiempo real con OpenCV
 ├── app.py                # Interfaz web con Streamlit
 ├── requirements.txt
