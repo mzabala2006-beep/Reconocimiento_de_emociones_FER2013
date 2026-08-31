@@ -1,24 +1,33 @@
 # Reconocimiento_de_emociones_FER2013
 Descripción
+
 Este proyecto implementa un sistema de clasificación de emociones faciales utilizando TensorFlow/Keras y el dataset FER2013. El modelo está basado en una CNN profunda (Modelo 3) y permite realizar predicciones en tiempo real usando la cámara web.
+
 Requisitos
+
 •	Python 3.8+
 •	TensorFlow 2.x
 •	Keras (incluido en TensorFlow)
 •	OpenCV
 •	Streamlit (opcional, para interfaz web)
+
 Instalar dependencias:
+
 bash
 pip install -r requirements.txt
 Ejemplo de requirements.txt:
+
 Código
+
 tensorflow==2.12.0
 opencv-python
 streamlit
 numpy
 scikit-learn
 matplotlib
+
 Estructura del repositorio
+
 Código
 ├── dataset/              # FER2013 (train/test)
 ├── notebook_entrenamiento.ipynb  # Notebook de entrenamiento
@@ -27,8 +36,11 @@ Código
 ├── app.py                # Interfaz web con Streamlit
 ├── requirements.txt
 └── README.md
+
 Entrenamiento del modelo
+
 Ejecuta el notebook:
+
 bash
 notebook notebook_entrenamiento.ipynb
 El modelo se guarda como:
