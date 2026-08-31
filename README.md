@@ -43,26 +43,36 @@ Ejecuta el notebook:
 
 bash
 notebook notebook_entrenamiento.ipynb
+
 El modelo se guarda como:
 python
 model.save("modelo_final.keras") Predicciones en tiempo real
+
 Ejecuta el script de cámara:
 bash
 python prediccion_realtime.py
+
 •	Se abrirá la cámara web.
 •	El sistema mostrará la emoción detectada en tiempo real.
 •	Presiona q para salir.
+
 Interfaz visual (Streamlit)
+
 Ejecuta:
+
 bash
 streamlit run app.py
+
 Esto abrirá una aplicación web local donde podrás ver las predicciones de forma clara e inmediata.
+
 Resultados
+
 •	Accuracy en prueba: ~60%
 •	Matriz de confusión: incluida en el notebook.
 •	Mejor desempeño: emociones “Happy” y “Surprise”.
 •	Mayor confusión: entre “Sad” y “Fear”.
 Decisiones de diseño
+
 •	Uso de data augmentation para mejorar generalización.
 •	Arquitectura CNN más profunda (Modelo 3).
 •	Dropout y Batch Normalization para reducir sobreajuste.
